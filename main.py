@@ -16,7 +16,7 @@ if st.button("Start"):
             # 修复索引访问，确保使用正确的索引
             item_name = item_names[i] if i < len(item_names) else "Unknown or Minecraft Item"
             item += f"{items[i].split(":")[-1].lower()} ({item_name})\n\n"
-        st.success("All done")
+        st.success("All done, please check wiki directory!")
         st.warning(f"You need these images, please place them in the static folder in the same directory as the document: \n{item}")
     else:
         st.error("Please enter a valid location")
