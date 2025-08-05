@@ -3,7 +3,7 @@ import func
 import os
 
 st.title("IA2Wiki")
-st.text("Automatically identify Items Adder files and write item documents")
+st.text("Automatically identify ItemsAdder files and generate item documentation.")
 loc = st.text_input("Please enter the location of the Items Adder file")
 if st.button("Start"):
     if os.path.exists(loc):
