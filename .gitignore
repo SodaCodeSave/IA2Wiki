@@ -140,3 +140,5 @@ Thumbs.db
 /contents/
 *.png
 !static/*.png
+
+.trae/
